@@ -10,13 +10,13 @@ int main(void)
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-    for (i = 0; i < 10; i++)
-    {
-        putchar(i + '0');
-    }
-	for (i = 0; i <= 4; i++)
+    for (i = 0; i <= 9; i++)
 	{
-        putchar(alphabet[i]);
+		putchar(i + '0');
+	}
+    for (i = 0; i <= 9; i++)
+	{
+		putchar(alphabet[i]);
 	}
 	putchar('\n');
 	return (0);
