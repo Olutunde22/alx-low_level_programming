@@ -13,11 +13,11 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		putchar(lowerCaseAlphabet[i]);
+	    putchar(lowerCaseAlphabet[i]);
 	}
     for (i = 0; i < 26; i++)
 	{
-		putchar(upperCaseAlphabet[i]);
+	    putchar(upperCaseAlphabet[i]);
 	}
 	putchar('\n');
 	return (0);
