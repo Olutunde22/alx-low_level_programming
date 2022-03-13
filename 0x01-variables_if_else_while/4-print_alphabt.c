@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-        if(alphabet[i] !== 'p' || alphabet[i] !== 'e'){
+        if(alphabet[i] != 'p' || alphabet[i] != 'e'){
             putchar(alphabet[i]);
         }
 		

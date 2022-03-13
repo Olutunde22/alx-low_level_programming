@@ -7,17 +7,12 @@
  */
 int main(void)
 {
-	char lowerCaseAlphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-    char upperCaseAlphabet[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char lowerUpper[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 52; i++)
 	{
-	    putchar(lowerCaseAlphabet[i]);
-	}
-    for (i = 0; i < 26; i++)
-	{
-	    putchar(upperCaseAlphabet[i]);
+		putchar(lowerUpper[i]);
 	}
 	putchar('\n');
 	return (0);
