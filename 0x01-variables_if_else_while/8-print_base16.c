@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-    char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+    char alphabet[26] = "ooooooooooabcdef";
     int i = 0;
 
     while (i < 16)
@@ -18,7 +18,6 @@ int main(void)
         }
         else
         {
-            i = 0;
             putchar(alphabet[i]);
         }
     }
