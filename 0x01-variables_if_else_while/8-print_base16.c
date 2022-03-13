@@ -9,20 +9,19 @@ int main(void)
 {
     char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
     int i = 0;
-    
+
     while (i < 16)
-	{
+    {
         if (i < 10)
-		{
-			putchar(i + '0');
-		}
-		else
-		{
-            i = 0
-		    putchar(alphabet[i]);
-		}
-		i++;
-	}
-	putchar('\n');
-    return 0;
+        {
+            putchar(i + '0');
+        }
+        else
+        {
+            i = 0;
+            putchar(alphabet[i]);
+        }
+    }
+    putchar('\n');
+    return(0);
 }
