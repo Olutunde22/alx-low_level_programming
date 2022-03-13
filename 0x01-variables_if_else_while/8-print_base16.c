@@ -10,9 +10,9 @@ int main(void)
     char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
     int i = 0;
     
-	while (i < 16)
+    while (i < 16)
 	{
-		if (i < 10)
+        if (i < 10)
 		{
 			putchar(i + '0');
 		}
