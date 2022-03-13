@@ -13,8 +13,8 @@ int main(void)
 	{
 		for (j = i + 1; j <= 9; j++)
 		{
-			putchar(j + '0');
 			putchar(i + '0');
+			putchar(j + '0');
 			if (((i * 10) + j) < 89)
 			{
 				putchar(',');
