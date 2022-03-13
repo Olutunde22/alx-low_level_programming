@@ -1,26 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - Prints all the numbers of base 16 in lowercase, followed by a new line
+ * main - Prints the 26 aplhabets in lowercase
  *
  * Return: 0 as Success
  */
 int main(void)
 {
-    char alphabet[26] = "ooooooooooabcdef";
-    int i = 0;
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-    while (i < 16)
+    for (i = 0; i < 26; i++)
     {
-        if (i < 10)
-        {
-            putchar(i + '0');
-        }
-        else
-        {
-            putchar(alphabet[i]);
-        }
+        putchar(i)
     }
-    putchar('\n');
-    return(0);
+
+	for (i = 0; i < 24; i++)
+	{
+		putchar(alphabet[i]);
+	}
+	putchar('\n');
+	return (0);
 }
