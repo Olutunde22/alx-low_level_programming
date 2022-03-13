@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 00 to 89.
+ * main - Prints combinations of three digits
  *
  * Return: Always 0 (Success)
  */
@@ -13,13 +13,12 @@ int main(void)
 	{
 		for (j = i + 1; j <= 9; j++)
 		{
-				putchar(j + '0');
-				putchar(i + '0');
-				if (((i * 10) + j) < 89)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+			putchar(j + '0');
+			putchar(i + '0');
+			if (((i * 10) + j) < 89)
+			{
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}

@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - Prints combinations of three digits
+ *
+ * Return: Always 0 (Success)
+ */
 int main()
 {
 	int i, j, k;
